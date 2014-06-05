@@ -1,5 +1,8 @@
 /*
- * Pin layout should be as follows:
+ * Arduino nfc door lock with remote card database on webserver.
+ * Copyright 2014 Alberto Panu alberto[at]panu.it
+ * 
+ * Pin layout for the MFRC522 board should be as follows:
  * Signal     Pin          
  *            Arduino Uno 
  * ------------------------
