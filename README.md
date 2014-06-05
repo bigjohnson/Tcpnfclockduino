@@ -4,6 +4,7 @@ Tcpnfclockduino
 Arduino nfc door lock with remote card database on webserver.
 
 The Arduino sketch read the nfc card with the RC522 board and check on the Webserver if the card is authorized.
+
 On the Apache directory there is a simple server side include page and script that get the rfid= parameter with card uid,
 read a text file with authorized card list and return the string
 act=O
