@@ -11,7 +11,7 @@ act=C
 if the card isn't authorized.
 The sketch try five times server connection if it cannot reach the server.
 The server side include is only a sample app, is non bullet proof and must not used on internet exposed server, it's ok if you use it on a intranet protected environment.
-You must activate mod_include and enable execution of .shtml files on webserver to use sample, enable execution only in the sample directory non on all webserver directory!
+You must activate mod_include and enable execution of .shtml files on webserver to use sample, enable execution only in the sample directory non on all webserver directories!
 
 Your comments and suggestion are welcomed to alberto[at]panu.it
 
