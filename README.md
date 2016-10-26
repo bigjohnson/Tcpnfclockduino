@@ -6,12 +6,19 @@ Arduino nfc door lock with remote card database on webserver.
 The Arduino sketch read the nfc card with the RC522 board and check on the Webserver if the card is authorized.
 
 On the Apache directory there is a simple server side include page and script that get the rfid= parameter with card uid, read a text file with authorized card list and return the string
+
 act=O
+
 if the card is authorized or
+
 act=C
+
 if the card isn't authorized.
+
 The sketch try five times server connection if it cannot reach the server.
+
 The server side include is only a sample app, is non bullet proof and must not used on internet exposed server, it's ok if you use it on a intranet protected environment.
+
 You must activate mod_include and enable execution of .shtml files on webserver to use sample, enable execution only in the sample directory non on all webserver directories!
 
 Your comments and suggestion are welcomed to alberto[at]panu.it
